@@ -1,4 +1,28 @@
 nav>ul>li {
   display: inline;
-  text-align: right;
+  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 0px;
+  font-family: 'Major Mono Display',
+    monospace;
+
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+ 
+}
+
+nav {
+  background-color: #304D68;
+}
+
+a {
+  color: aqua;
+ 
+}
+
+li a:hover {
+  background-color: #B9E28C;
 }
