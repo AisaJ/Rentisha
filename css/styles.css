@@ -1,0 +1,57 @@
+nav>ul>li{
+  display: inline-block;
+padding-bottom: 0;
+padding-top: 0;
+padding-right: 25px;
+padding-left: 30px;
+
+}
+nav{
+  background-color: #304D68;
+}
+a{
+  color: aqua;
+}
+header{
+  background-color: aqua;
+  width: 150%;
+  text-align: center;
+
+}
+.home-appliances{
+  background-color: white;
+}
+#home-appliances{
+text-align: center;
+text-decoration: none;
+table-layout: fixed;
+background-image: url(https://images.pexels.com/photos/974471/nature-night-sky-stars-974471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+#front{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  color: skyblue;
+}
+#right{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  left: 750px;
+  animation: right 1s ease ;
+  opacity: 1;
+  transform:scale(.8);
+}
+#left{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  animation: right 1s ease ;
+  opacity: 1;
+  transform:scale(.8);
+}
