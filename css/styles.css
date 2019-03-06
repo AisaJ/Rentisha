@@ -36,6 +36,43 @@ header{
   height: 300px;
 
 }
+.form-control {
+  background: transparent;
+  border-radius: 0;
+  border: 0;
+  width: auto;
+  border-bottom: 1px solid white;
+  color: white;
+  padding:15px;
+font-size: 21px;
+
+
+}
+
+.glyphicon{
+  margin-top: 1em;
+}
+
+.register{
+  background-color: #11e379;
+  padding: 2em;
+  opacity: 0.7;
+nav>ul>li{
+  display: inline-block;
+padding-bottom: 0;
+padding-top: 0;
+padding-right: 25px;
+padding-left: 30px;
+
+}
+.home-appliances{
+  background-color: white;
+}
+#home-appliances{
+text-align: center;
+text-decoration: none;
+table-layout: fixed;
+background-image: url(https://images.pexels.com/photos/974471/nature-night-sky-stars-974471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 
 .e-img{
   width:300px;
@@ -76,4 +113,34 @@ header{
 }
 h4{
   color:#20B2AA;
+
+
+#front{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  color: skyblue;
+}
+#right{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  left: 750px;
+  animation: right 1s ease ;
+  opacity: 1;
+  transform:scale(.8);
+}
+#left{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  animation: right 1s ease ;
+  opacity: 1;
+  transform:scale(.8);
+
 }

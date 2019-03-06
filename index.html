@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-
-<head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous">
+<html>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Quicksand" rel="stylesheet">
-</head>
+<title></title>
 
+</head>
 <body>
 
   <nav class="static">
+
     <ul>
-      <li><img src="images/RENTISHA.COM (2).png" height="100"></li>
+
+      <li><img src="images/RENTISHA.COM (2).png" height="80"></li>
+
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a>Equipment</a></li>
@@ -21,9 +24,34 @@
       <li><a href="blog.html">Blog</a></li>
     </ul>
   </nav>
-  <header>
-    <div class="container-fluid" id="home">
-        <button>Sign Up</button>
+
+  <div class="container-fluid" id="home">
+    <div class="row">
+      <header>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 register" >
+            <button id="SignUp">Sign Up</button>
+
+            <div class="input-group">
+              <p>User name</p> <br>
+              <span class="input-group-addon"></span><span class="glyphicon glyphicon-user"></span>
+              <input id="userName" type="text" class="form-control" name="mail" placeholder="user name" >
+            </div>
+            <div class="input-group">
+              <p>Password</p> <br>
+              <span class="input-group-addon"></span><span class="glyphicon glyphicon-lock"></span>
+              <input id="password" type="text" class="form-control" name="password" placeholder="password " >
+            </div>
+            <div class="input-group">
+            <p>Re-type password</p> <br>
+              <span class="input-group-addon"></span><span class="glyphicon glyphicon-lock"></span>
+              <input type="text" class="form-control" name="password" placeholder="password ">
+            </div>
+<button id="SignUp" type="button" name="button">sign up</button>
+          </div>
+        </div>
+
         <h6>Why rent?</h6>
         <div class="row">
           <div class="col-md-3">
@@ -132,9 +160,11 @@
     </div>
 
     <h3>Office</h3>
-    <div class="row" id="office">
 
+    <div class="row" id="office">
+ 
       <div class="col-md-4">
+
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
@@ -150,10 +180,11 @@
             </div>
           </div>
         </div>
-        <button type="button" class="btn btn-primary"></button>
-      </div>
 
+       
+      </div>
       <div class="col-md-4">
+
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
@@ -189,13 +220,12 @@
             </div>
           </div>
         </div>
-        <button type="button" class="btn btn-primary"></button>
-      </div>
-    </div>
-    <h3>Entertainment</h3>
-    <div class="row" id="entertainment">
 
+       
+    <div class="row" id="entertainment">
+      <h3>Entertainment</h3>
       <div class="col-md-4">
+
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
@@ -249,14 +279,14 @@
               <p></p>
             </div>
           </div>
-        </div>
+   
         <button type="button" class="btn btn-primary"></button>
       </div>
     </div>
-    <h3>Trending</h3>
     <div class="row" id="trending">
-
+      <h3>Trending</h3>
       <div class="col-md-4">
+
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
@@ -310,35 +340,59 @@
               <p>100 recipes with step-by-step instructions</p>
             </div>
           </div>
-        </div>
+        </
         <button type="button" class="btn btn-primary"></button>
       </div>
     </div>
-    <h2>About Us</h2>
-    <div class="row" id="about">
+
+  <div class="col-md-4">
+    <img alt="" src=""> <button class="btn btn-primary" type="button"></button>
+  </div>
+</div>
+<div class="row" id="entertainment">
+  <h3>Entertainment</h3>
+  <div class="col-md-4">
+    <img alt="" src=""> <button class="btn btn-primary" type="button"></button>
+  </div>
+  <div class="col-md-4">
+    <img alt="" src=""> <button class="btn btn-primary" type="button"></button>
+  </div>
+  <div class="col-md-4">
+    <img alt="" src=""> <button class="btn btn-primary" type="button"></button>
+  </div>
+</div>
+<div class="row" id="trending">
+  <h3>Trending</h3>
+  <div class="col-md-4">
+    <img alt="" src=""> <button class="btn btn-primary" type="button"></button>
+  </div>
+  <div class="col-md-4">
+    <img alt="" src=""> <button class="btn btn-primary" type="button"></button>
+  </div>
+  <div class="col-md-4">
+    <img alt="" src=""> <button class="btn btn-primary" type="button"></button>
+  </div>
+</div>
+<div class="row" id="about">
+  <h2>About Us</h2>
+</div>
+<div class="row">
+  <h2>Testimonials</h2>
+</div>
+<div class="row" id="faq">
+  <h2>FAQs</h2>
+</div>
+<footer>
+  <div class="row" id="contact-info">
+    <div class="col-md-4" id="contact-form">
+      <form action=""></form>
+
+
 
     </div>
-    <div class="row">
-      <h2>Testimonials</h2>
-    </div>
-    <div class="row" id="faq">
-      <h2>FAQs</h2>
-    </div>
-    <footer>
-      <div class="row" id="contact-info">
-        <div class="col-md-4" id="contact-form">
-          <form action=""></form>
-        </div>
-        <div class="col-md-4" id="social-icons">
-
-        </div>
-        <div class="col-md-4" id="address-info">
-
-        </div>
-      </div>
-    </footer>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-      crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    <div class="col-md-4" id="social-icons"></div>
+    <div class="col-md-4" id="address-info"></div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
