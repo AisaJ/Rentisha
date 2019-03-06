@@ -1,0 +1,29 @@
+nav>ul>li{
+  display: inline-block;
+padding-bottom: 0;
+padding-top: 0;
+padding-right: 25px;
+padding-left: 30px;
+
+}
+nav{
+  background-color: #304D68;
+}
+a{
+  color: aqua;
+}
+header{
+  background-color: aqua;
+  width: 150%;
+  text-align: center;
+
+}
+.home-appliances{
+  background-color: white;
+}
+#home-appliances{
+text-align: center;
+text-decoration: none;
+table-layout: fixed;
+background-image: url(https://images.pexels.com/photos/974471/nature-night-sky-stars-974471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
