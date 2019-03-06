@@ -1,25 +1,20 @@
-
-nav>ul>li {
+nav > ul > li {
   display: inline;
-  font-family: 'Major Mono Display',
-    monospace;
+  font-family: 'Major Mono Display', monospace;
 
   list-style-type: none;
   margin: 0;
   padding-top: 30px;
   overflow: none;
   padding: 20px;
-
 }
-
 
 a {
   color: aqua;
-
 }
 
 li a:hover {
-  background-color: #B9E28C;
+  background-color: #b9e28c;
 }
 
 .static {
@@ -27,14 +22,13 @@ li a:hover {
   z-index: 2;
   height: 100px;
   position: fixed;
-  background-color: #304D68;
+  background-color: #304d68;
 }
-header{
+header {
   margin-top: 0px;
-  background-color: #5FA8D3;
+  background-color: #5fa8d3;
   width: 150%;
   height: auto;
-
 }
 .form-control {
   background: transparent;
@@ -43,79 +37,74 @@ header{
   width: auto;
   border-bottom: 1px solid white;
   color: white;
-  padding:15px;
-font-size: 21px;
-
-
+  padding: 15px;
+  font-size: 21px;
 }
 
-.glyphicon{
+.glyphicon {
   margin-top: 1em;
 }
 
-.register{
+.register {
   background-color: #11e379;
   padding: 2em;
   opacity: 0.7;
-nav>ul>li{
-  display: inline-block;
-padding-bottom: 0;
-padding-top: 0;
-padding-right: 25px;
-padding-left: 30px;
-
 }
-.home-appliances{
+/* nav > ul > li {
+  display: inline-block;
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-right: 25px;
+  padding-left: 30px;
+} */
+.home-appliances {
   background-color: white;
 }
-#home-appliances{
-text-align: center;
-text-decoration: none;
-table-layout: fixed;
-background-image: url(https://images.pexels.com/photos/974471/nature-night-sky-stars-974471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-
-.e-img{
-  width:300px;
-  height:300px;
+#home-appliances {
+  text-align: center;
+  text-decoration: none;
+  table-layout: fixed;
+  background-image: url(https://images.pexels.com/photos/974471/nature-night-sky-stars-974471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
-.flip-box{
+.flip-box {
   background-color: transparent;
-  width:300px;
-  height:200px;
-  border:1px solid #f1f1f1
-  perspective:1000px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
 }
-.flip-box-inner{
-  position:relative;
-  width:100%;
-  height:100%;
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
   text-align: center;
   transition: transform 0.8s;
-  transform-style:preserve-3d;
+  transform-style: preserve-3d;
 }
-.flip-box:hover .flip-box-inner{
+.flip-box:hover .flip-box-inner {
   transform: rotateY(180deg);
 }
-.flip-box-front,flip-box-back{
-  position:absolute;
+.flip-box-front,
+flip-box-back {
+  position: absolute;
   width: 100%;
-  height:100%;
+  height: 100%;
   backface-visibility: hidden;
 }
-.flip-box-front{
-  background-color: #5F9EA0;
-  color:black;
+.flip-box-front {
+  background-color: #5f9ea0;
+  color: black;
 }
-.flip-box-back{
+.flip-box-back {
   background-color: #008080;
-  color:white;
+  color: white;
   transform: rotateY(180deg);
 }
-h4{
-  color:#20B2AA;
+h4 {
+  color: #20b2aa;
+}
 
-
-#front{
+#front {
   width: 250px;
   height: 250px;
   position: absolute;
@@ -123,24 +112,23 @@ h4{
   left: 500px;
   color: skyblue;
 }
-#right{
+#right {
   width: 250px;
   height: 250px;
   position: absolute;
   top: 200px;
   left: 750px;
-  animation: right 1s ease ;
+  animation: right 1s ease;
   opacity: 1;
-  transform:scale(.8);
+  transform: scale(0.8);
 }
-#left{
+#left {
   width: 250px;
   height: 250px;
   position: absolute;
   top: 200px;
   left: 250px;
-  animation: right 1s ease ;
+  animation: right 1s ease;
   opacity: 1;
-  transform:scale(.8);
-
+  transform: scale(0.8);
 }
