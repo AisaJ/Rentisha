@@ -1,5 +1,25 @@
 
+.form-control {
+  background: transparent;
+  border-radius: 0;
+  border: 0;
+  width: auto;
+  border-bottom: 1px solid white;
+  color: white;
+  padding:15px;
+font-size: 21px;
 
+
+}
+
+.glyphicon{
+  margin-top: 1em;
+}
+
+.register{
+  background-color: #11e379;
+  padding: 2em;
+  opacity: 0.7;
 nav>ul>li{
   display: inline-block;
 padding-bottom: 0;
