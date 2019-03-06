@@ -1,4 +1,5 @@
 
+
 nav>ul>li{
   display: inline-block;
 padding-bottom: 0;
@@ -27,7 +28,7 @@ text-align: center;
 text-decoration: none;
 table-layout: fixed;
 background-image: url(https://images.pexels.com/photos/974471/nature-night-sky-stars-974471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-=======
+
 .e-img{
   width:300px;
   height:300px;
@@ -67,5 +68,34 @@ background-image: url(https://images.pexels.com/photos/974471/nature-night-sky-s
 }
 h4{
   color:#20B2AA;
->>>>>>> ea3fcac8b80e90d00266f4202fd73f156b49703b
+
+
+#front{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  color: skyblue;
+}
+#right{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  left: 750px;
+  animation: right 1s ease ;
+  opacity: 1;
+  transform:scale(.8);
+}
+#left{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  animation: right 1s ease ;
+  opacity: 1;
+  transform:scale(.8);
+
 }
