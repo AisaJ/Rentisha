@@ -288,24 +288,64 @@
     <div class="row" id="about">
 
     </div>
-    <div class="row">
+    <div class="container-fluid">
+
+
+      <div class="row">
       <h2>Testimonials</h2>
+      <div class="col-md-4">
+        <blockquote class="blockquote mb-0">
+          <p>Rentisha has made life so convenient!</p>
+        <footer class="blockquote-footer">Abel</footer>
+        </blockquote>
+      </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote mb-0">
+            <p>Why should I buy something to gather dust in my house when I can rent?</p>
+          <footer class="blockquote-footer">Mary</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote mb-0">
+            <p>I had a chance to try out a device before it was launched, So cool!</p>
+          <footer class="blockquote-footer">Dennis</footer>
+          </blockquote>
+
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote mb-0">
+            <p>We are a small business, so we only rent a printer when we need it!</p>
+          <footer class="blockquote-footer">George, CEO Ufuta</footer>
+          </blockquote>
+        </div>
+
+      </div>
     </div>
     <div class="row" id="faq">
       <h2>FAQs</h2>
+
     </div>
     <footer>
       <div class="row" id="contact-info">
         <div class="col-md-4" id="contact-form">
           <form id="contact-form" action="">
-            <label for="">First Name</label> <input type="text" name="first-name" value=""><br>
-            <label for="">Last Name</label> <input type="text" name="last-name" value=""><br>
-            <label for="">Email address</label><input type="text" name="email" value=""><br>
-            <label for="">Phone number</label> <input type="text" name="phone-number" value=""><br>
-            <label for="">Subject</label><input type="text" name="subject" value=""><br>
-            <label for="">Message</label><input type="text" name="message" value=""><br>
+            <label for="first name">First Name</label><input id="first-name" type="text" name="first-name" value=""><br>
+            <label for="last name">Last Name</label><input id="last-name" type="text" name="last-name" value=""><br>
+            <label for="email address">Email address</label><input id="email" type="text" name="email" value=""><br>
+            <label for="phone number">Phone number</label><input id="phoneNumber" type="text" name="phone-number" value=""><br>
+            <label for="subject">Subject</label><input id="subject" type="text" name="subject" value=""><br>
+            <label for="message">Message</label><input id="message" type="text" name="message" value=""><br>
           </form>
-          <button type="submit" form="contact-form" value="submit">Submit</button>
+          <button id="contact-form-submit" type="submit" form="contact-form" value="submit">Submit</button>
+        </div>
+        <div class="contactDisplayArea">
+          <p>First Name: <span id="fName"></span</p>
+          <p>Last Name: <span id="lName"></span></p>
+          <p>Email Address:<span id="eAddress"></span></p>
+          <p>Phone Number:<span id="pNumber"></span></p>
+          <p>Subject:<span id="cSubject"></span></p>
+          <p>Message:<span id="cMessage"></span></p>
+          <button type="reset" name="button">Go Back</button>
         </div>
         <div class="col-md-4" id="social-icons">
 
