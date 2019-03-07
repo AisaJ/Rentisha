@@ -29,9 +29,4 @@ $(document).ready(function(){
     $('.contactDisplayArea').show();
   });
 });
-// var customerQuery = document.getElementById("form").elements;
-// var display = {};
-// for (var 1=0; i<customerQuery.length;i++);
-//   if (customerQuery[i].type="submit") {
-//     display[customerQuery[i].name]=customerQuery[i].value;
-//   }
+
