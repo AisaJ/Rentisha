@@ -9,7 +9,8 @@ function Contact(firstName,lastName,email,number,subject,message){
 }
 //UI Logic
 $(document).ready(function(){
-	 $("form#contact-form").submit(function(){
+	 $("form#contact-form").submit(function(event){
+    event.PreventDefault();
     var firstName = $("input#first-name").val();
     var lastName = $("input#last-name").val();
     var emailAddress = $("input#email").val();
@@ -25,3 +26,9 @@ $(document).ready(function(){
     $("#cMessage").text("" + message);
   });
 });
+// var customerQuery = document.getElementById("form").elements;
+// var display = {};
+// for (var 1=0; i<customerQuery.length;i++);
+//   if (customerQuery[i].type="submit") {
+//     display[customerQuery[i].name]=customerQuery[i].value;
+//   }
