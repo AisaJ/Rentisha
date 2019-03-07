@@ -1,25 +1,20 @@
-
 nav>ul>li {
   display: inline;
-  font-family: 'Major Mono Display',
-    monospace;
+  font-family: 'Major Mono Display', monospace;
 
   list-style-type: none;
   margin: 0;
   padding-top: 30px;
   overflow: none;
   padding: 20px;
-
 }
-
 
 a {
   color: aqua;
-
 }
 
 li a:hover {
-  background-color: #B9E28C;
+  background-color: #b9e28c;
 }
 
 .static {
@@ -27,15 +22,16 @@ li a:hover {
   z-index: 2;
   height: 100px;
   position: fixed;
-  background-color: #304D68;
+  background-color: #304d68;
 }
-header{
-  margin-top: 0px;
-  background-color: #5FA8D3;
-  width: 100%;
-  height: 300px;
 
+header {
+  margin-top: 0px;
+  background-color: #5fa8d3;
+  width: 150%;
+  height: auto;
 }
+
 .form-control {
   background: transparent;
   border-radius: 0;
@@ -43,43 +39,44 @@ header{
   width: auto;
   border-bottom: 1px solid white;
   color: white;
-  padding:15px;
-font-size: 21px;
-
-
+  padding: 15px;
+  font-size: 21px;
 }
 
-.glyphicon{
+.glyphicon {
   margin-top: 1em;
 }
 
-.register{
+.register {
   background-color: #11e379;
   padding: 2em;
   opacity: 0.7;
-nav>ul>li{
-  display: inline-block;
-padding-bottom: 0;
-padding-top: 0;
-padding-right: 25px;
-padding-left: 30px;
-
 }
-.home-appliances{
+
+/* nav > ul > li {
+  display: inline-block;
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-right: 25px;
+  padding-left: 30px;
+} */
+/* .home-appliances {
   background-color: white;
 }
-#home-appliances{
-text-align: center;
-text-decoration: none;
-table-layout: fixed;
-background-image: url(https://images.pexels.com/photos/974471/nature-night-sky-stars-974471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-
-.e-img{
-  width:300px;
-  height:300px;
+#home-appliances {
+  text-align: center;
+  text-decoration: none;
+  table-layout: fixed;
+  background-image: url(https://images.pexels.com/photos/974471/nature-night-sky-stars-974471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+} */
+.e-img {
+  width: 400px;
+  height: 400px;
 }
-.flip-box{
+
+.flip-box {
   background-color: transparent;
+
   width:300px;
   height:200px;
   border:1px solid #f1f1f1;
@@ -91,31 +88,47 @@ background-image: url(https://images.pexels.com/photos/974471/nature-night-sky-s
   height:100%;
   text-align: center;
   transition: transform 0.8s;
-  transform-style:preserve-3d;
+  transform-style: preserve-3d;
 }
-.flip-box:hover .flip-box-inner{
+
+.flip-box:hover .flip-box-inner {
   transform: rotateY(180deg);
 }
-.flip-box-front,flip-box-back{
-  position:absolute;
+
+.flip-box-front,
+flip-box-back {
+  position: absolute;
   width: 100%;
-  height:100%;
+  height: 100%;
   backface-visibility: hidden;
 }
-.flip-box-front{
+
+.flip-box-front {
   background-color: #5F9EA0;
-  color:black;
+  color: black;
 }
-.flip-box-back{
+
+.flip-box-back {
   background-color: #008080;
-  color:white;
+  color: white;
   transform: rotateY(180deg);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-h4{
-  color:#20B2AA;
 
+h4 {
+  color: #20B2AA;
+}
 
-#front{
+.contactDisplayArea {
+  display: none;
+}
+
+h4 {
+  color: #20b2aa;
+}
+
+#front {
   width: 250px;
   height: 250px;
   position: absolute;
@@ -123,27 +136,125 @@ h4{
   left: 500px;
   color: skyblue;
 }
-#right{
+
+#right {
   width: 250px;
   height: 250px;
   position: absolute;
   top: 200px;
   left: 750px;
-  animation: right 1s ease ;
+  animation: right 1s ease;
   opacity: 1;
-  transform:scale(.8);
+  transform: scale(0.8);
 }
-#left{
+
+#left {
   width: 250px;
   height: 250px;
   position: absolute;
   top: 200px;
   left: 250px;
-  animation: right 1s ease ;
+  animation: right 1s ease;
   opacity: 1;
-  transform:scale(.8);
+  transform: scale(0.8);
+}
+
+#office {
+  height: 450px;
+}
+
+header {
+  box-sizing: border-box
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 450px;
+  margin: 0%;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  height: 450px;
+}
+
+#pass {
+  display: none;
+}
+button,#SignUp{
+  border-radius: 15px;
+  background-color: aqua;
+}
+/* Slideshow container
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+/* */
+/* .slideshow-container {
+  margin: 50px;
+  position: relative;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.slideshow-container>div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+} */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #b9e28c;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #b9e28c;
 
 }
+
 .contactDisplayArea{
   display:none;
 }

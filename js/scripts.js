@@ -1,3 +1,4 @@
+
 //Business Logic
 function Contact(firstName,lastName,email,number,subject,message){
   this.firstName = firstName;
