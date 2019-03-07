@@ -10,20 +10,23 @@ function Contact(firstName,lastName,email,number,subject,message){
 //UI Logic
 $(document).ready(function(){
 	 $("form#contact-form").submit(function(event){
-    event.PreventDefault();
-    var firstName = $("input#first-name").val();
-    var lastName = $("input#last-name").val();
-    var emailAddress = $("input#email").val();
-    var phoneNumber = $("input#phoneNumber").val();
-    var subject = $("input#subject").val();
-    var message = $("input#message").val();
-    $("#fName").text(" " + Contact.firstName);
-    $("#fName").text("" + Contact.lastName);
-    $("#lName").text("" + Contact.lastName);
-    $("#eAddress").text("" + Contact.email);
-    $("#pNumber").text("" + Contact.number);
-    $("#cSubject").text("" + Contact.subject);
-    $("#cMessage").text("" + message);
+    event.preventDefault();
+    var fName = $("input#first-name").val();
+    var lName = $("input#last-name").val();
+    var eAddress = $("input#email").val();
+    var pNumber = $("input#phoneNumber").val();
+    var mSubject = $("input#subject").val();
+    var cMessage = $("input#message").val();
+
+    var newUser = new Contact(fName,lName,eAddress,pNumber,mSubject,cMessage);
+    $("#fName").text(" " + newUser.firstName);
+    $("#lName").text("" + newUser.lastName);
+    $("#eAddress").text("" + newUser.email);
+    $("#pNumber").text("" + newUser.number);
+    $("#cSubject").text("" + newUser.subject);
+    $("#cMessage").text("" + newUser.message);
+
+    $('.contactDisplayArea').show();
   });
 });
 // var customerQuery = document.getElementById("form").elements;

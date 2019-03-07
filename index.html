@@ -388,15 +388,16 @@
 
           <div class="col-md-4" id="contact-form">
             <h4>Reach out</h4>
-          <form id="contact-form" action="">
+          <form id="contact-form" class="form-group" action="index.html">
             <label for="first name">First Name</label><input id="first-name" type="text" name="first-name" value=""><br>
             <label for="last name">Last Name</label><input id="last-name" type="text" name="last-name" value=""><br>
-            <label for="email address">Email address</label><input id="email" type="text" name="email" value=""><br>
-            <label for="phone number">Phone number</label><input id="phoneNumber" type="text" name="phone-number" value=""><br>
+            <label for="email address">Email address</label><input id="email" type="email" name="email" value=""><br>
+            <label for="phone number">Phone number</label><input id="phoneNumber" type="number" name="phone-number" value=""><br>
             <label for="subject">Subject</label><input id="subject" type="text" name="subject" value=""><br>
             <label for="message">Message</label><input id="message" type="text" name="message" value=""><br>
+            <button id="contact-form-submit" type="submit" form="contact-form" value="submit">Submit</button>
           </form>
-          <button id="contact-form-submit" type="submit" form="contact-form" value="submit">Submit</button>
+
         </div>
         <div class="contactDisplayArea">
           <p>First Name: <span id="fName"></span</p>
@@ -424,4 +425,5 @@
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
+  Copyright 2019 Rentisha
 </body>
