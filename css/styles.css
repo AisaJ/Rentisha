@@ -75,13 +75,14 @@ header {
 }
 
 .flip-box {
-  background-color: transparent;
 
-  width:300px;
-  height:200px;
-  border:1px solid #f1f1f1;
-  perspective:1000px;
+  background-color: #f1f1f1;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
 }
+
 .flip-box-inner{
   position:relative;
   width:100%;
@@ -179,10 +180,14 @@ header {
 #pass {
   display: none;
 }
-button,#SignUp{
-  border-radius: 15px;
-  background-color: aqua;
+
+button,
+#SignUp {
+  border-radius: 0px;
+  background-color: #304d68;
+  color: grey;
 }
+
 /* Slideshow container
 .slideshow-container {
   max-width: 100%;
@@ -255,6 +260,41 @@ button,#SignUp{
 
 }
 
+
+body {
+  overflow: auto;
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+  border: 0 none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body {
+  text-align: center;
+}
+
+.star {
+  height: 20px;
+  background-image: url(images/5starrating.png);
+  background-repeat: repeat-x;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 .contactDisplayArea{
   display:none;
 }
@@ -268,3 +308,25 @@ blockquote{
 .col-xs-1{
   margin:5px;
 }
+.card {
+  height: 100%;
+}
+.flex-item {
+  flex-direction: column;
+}
+.middle{
+  text-align: center;
+}
+    .incline-line {
+      width: 200%;
+      margin: 5%;
+      margin-top: 0%;
+      margin-bottom: 0%;
+      transform: rotate(100deg);
+      border-color: purple;
+      text-align: left;
+    }
+    .col-md-2{
+      text-align: right;
+    }
+
