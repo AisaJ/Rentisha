@@ -82,7 +82,7 @@ background-image: url(https://images.pexels.com/photos/974471/nature-night-sky-s
   background-color: transparent;
   width:300px;
   height:200px;
-  border:1px solid #f1f1f1
+  border:1px solid #f1f1f1;
   perspective:1000px;
 }
 .flip-box-inner{
@@ -143,4 +143,17 @@ h4{
   opacity: 1;
   transform:scale(.8);
 
+}
+.contactDisplayArea{
+  display:none;
+}
+#social-icons{
+  height:100px;
+  width:100px;
+}
+blockquote{
+  background-color: #E0FFFF;
+}
+.col-xs-1{
+  margin:5px;
 }
